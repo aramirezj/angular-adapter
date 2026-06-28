@@ -141,7 +141,7 @@ export class FederationBuildNotifier {
   }
 
   /**
-   * Sends an event to a specific response stream
+   * Sends an event to a specific response streamddd
    */
   private _sendEvent(res: ServerResponse, event: FederationEvent): void {
     const data = JSON.stringify(event);
